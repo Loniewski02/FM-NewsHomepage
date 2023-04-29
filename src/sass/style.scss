@@ -253,6 +253,7 @@ body {
 	&__box {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		margin: 2.5rem 0;
 		border-bottom: 1px solid $dark-grayish-blue;
 
@@ -267,7 +268,6 @@ body {
 		&-title {
 			margin-bottom: 0.3em;
 			padding-bottom: 0.2em;
-			width: max-content;
 			font-size: 2rem;
 			color: $off-white;
 			cursor: pointer;
@@ -311,6 +311,7 @@ body {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
+			align-items: flex-start;
 			padding: 0.2em;
 		}
 
@@ -321,7 +322,6 @@ body {
 		}
 
 		&-title {
-			width: max-content;
 			color: $very-dark-blue;
 			font-size: 1.8rem;
 			font-weight: 800;

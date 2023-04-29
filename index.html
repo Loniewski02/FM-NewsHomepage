@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/img/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/style.min.css">
+
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+
+  <nav class="nav wrapper">
+    <a href="#" class="nav__logo" aria-label="home"><img src="./dist/img/icons/logo.svg" alt=""></a>
+    <button class=" nav__burger-btn">
+      <div class="nav__burger-btn-box">
+        <div class="nav__burger-btn-bars"></div>
+      </div>
+    </button>
+
+    <div class="nav__items">
+      <a href="#" class="nav__item">Home</a>
+      <a href="#" class="nav__item">New</a>
+      <a href="#" class="nav__item">Popular</a>
+      <a href="#" class="nav__item">Trending</a>
+      <a href="#" class="nav__item">Categories</a>
+    </div>
+  </nav>
+
+  <main class="main wrapper">
+    <section class="about">
+      <img src="./dist/img/image-web-3-mobile.jpg" alt="blocks" class="about__img about__img">
+      <div class="about__info">
+        <h1 class="about__title">The Bright Future of Web 3.0?</h1>
+        <p class="about__text">We dive into the next evolution of the web that claims to put the power of the
+          platforms
+          back into the hands of the people. But is it really fulfilling its promise?</p>
+        <button class="about__btn">Read more</button>
+      </div>
+    </section>
+
+    <section class="news">
+      <h2 class="news__title">New</h2>
+      <div class="news__box">
+        <h3 class="news__box-title" tabindex="0">Hydrogen VS Electric Cars</h3>
+        <p class="news__box-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <div class="news__box">
+        <h3 class="news__box-title" tabindex="0">The Downsides of AI Artistry</h3>
+        <p class="news__box-text">What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      <div class="news__box">
+        <h3 class="news__box-title" tabindex="0">Is VC Funding Drying Up?</h3>
+        <p class="news__box-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
+
+    <section class="others">
+      <div class="others__boxes">
+        <div class="others__box">
+          <img class="others__box-img" src="./dist/img/image-retro-pcs.jpg" alt="retro PC">
+          <div class="others__box-info">
+            <p class="others__box-number">01</p>
+            <h3 class="others__box-title" tabindex="0">Reviving Retro PCs</h3>
+            <p class="others__box-text">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="others__box">
+          <img class="others__box-img" src="./dist/img/image-top-laptops.jpg" alt="laptop keyboard">
+          <div class="others__box-info">
+            <p class="others__box-number">02</p>
+            <h3 class="others__box-title" tabindex="0">Top 10 Laptops of 2022</h3>
+            <p class="others__box-text">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="others__box">
+          <img class="others__box-img" src="./dist/img/image-gaming-growth.jpg" alt="white controller above hand">
+          <div class="others__box-info">
+            <p class="others__box-number">03</p>
+            <h3 class="others__box-title" tabindex="0">The Growth of Gaming</h3>
+            <p class="others__box-text">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>

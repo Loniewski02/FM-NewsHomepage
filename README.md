@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Loniewski02/FM-NewsHomepage
-- Live Site URL: https://loniewski02.github.io/FM-NewsHomepage/
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/html-sass-js-news-homepage-5AnejCVFdm)
+- Live Site URL: [live](https://loniewski02.github.io/FM-NewsHomepage/)
 
 ## My process
 
